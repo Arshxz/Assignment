@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/contact.css">
+    <title>Contact Us - Punjab Explorers</title>
+</head>
+<body>
+
+  <header>
+    <h1><a style="color: white;" href="index.html">Discover Punjab</a></h1>
+    <p>Discover the Beauty of Punjab</p>
+  </header>
+
+  <main>
+    <section class="contact-form">
+      <form action="submit_form.php" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Your email address" required>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" placeholder="Subject of your message" required>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Write your message here" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Punjab Explorers</p>
+  </footer>
+
+</body>
+</html>

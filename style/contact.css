@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; /* Light Gray */
+  }
+  
+  header {
+    background-color: #3498db; /* Green */
+    color: #fff;
+    text-align: left;
+    padding: 1em;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  .contact-form {
+    width: 50%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 0.5em;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #2196f3; /* Blue */
+    color: #fff;
+    padding: 0.5em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0d47a1; /* Darker Blue */
+  }
+  
+  footer {
+    background-color: #3498db; /* Green */
+    color: #fff;
+    text-align: left;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
